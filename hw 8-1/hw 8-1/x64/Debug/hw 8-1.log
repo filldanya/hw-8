@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\danii\Desktop\C++\lesson 8\hw 8-1\hw 8-1\main.cpp(5,20): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\danii\Desktop\C++\lesson 8\hw 8-1\hw 8-1\main.cpp(24,21): warning C4101: error: неиспользованная локальная переменная
+  hw 8-1.vcxproj -> C:\Users\danii\Desktop\C++\lesson 8\hw 8-1\x64\Debug\hw 8-1.exe
