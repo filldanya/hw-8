@@ -12,4 +12,8 @@ Square::Square(int a) {
 		C = 90;
 		D = 90;
 		name = "Квадрат";
+		if (A != 90 && B != 90 && C != 90 && D != 90 && a != c && a != b && a != c && a != d)
+		{
+			throw std::exception("Это не прямоугольник");
+		}
 	}

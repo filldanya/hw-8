@@ -8,4 +8,9 @@ Equilateral_triangle::Equilateral_triangle(int a) {
 		B = 60;
 		C = 60;
 		name = "равносторонний треугольник";
+		if (a != b && a != c && A != B && A != C)
+		{
+			throw std::exception("Треугольник не равностаронний");
+		}
 	}
+

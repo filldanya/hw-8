@@ -35,6 +35,10 @@
 		this->C = C;
 		this->D = D;
 
+		if (A + B + C + D != 360)
+		{
+			throw std::exception("Сумма углов не равна 360");
+		}
 	}
 	std::string Quadrangle::get_name() {
 		return name;

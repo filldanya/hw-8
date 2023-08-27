@@ -11,5 +11,9 @@ Parallelogram::Parallelogram(int a, int b, int A, int B) {
 		this->B = B;
 		this->D = B;
 		name = "Ïאנאככוכמדנאלל";
+		if (A != C && B != D  && a != c && b != d )
+		{
+			throw std::exception("Ýעמ םו ןאנאככוכמדנאלל");
+		}
 	}
 Parallelogram::Parallelogram(){}

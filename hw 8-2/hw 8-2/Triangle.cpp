@@ -1,5 +1,6 @@
 #include "Triangle.h"
 #include <iostream>
+#include "Figure_Error.h"
 	int Triangle::get_a() {
 		return a;
 	}
@@ -18,6 +19,9 @@
 	int Triangle::get_C() {
 		return C;
 	}
+	void check() {
+
+	}
 	Triangle::Triangle(int a, int b, int c, int A, int B, int C) {
 		this->a = a;
 		this->b = b;
@@ -26,6 +30,11 @@
 		this->B = B;
 		this->C = C;
 
+		if (A + B + C != 180) 
+		{
+			throw std::exception("сумма углов не равна 180");
+		}
+		
 	}
 	std::string Triangle::get_name() {
 		return name;

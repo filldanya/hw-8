@@ -9,4 +9,8 @@ Right_triangle::Right_triangle(int a, int b, int c, int A, int B) {
 		this->B = B;
 		C = 90;
 		name = "пр€моугольный треугольник";
+		if (C != 90) 
+		{
+		throw std::exception("”гол C не равен 90");
+		}
 	}

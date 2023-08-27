@@ -8,4 +8,8 @@ Isosceles_triangle::Isosceles_triangle(int a, int b, int A, int B) {
 		this->B = B;
 		this->C = A;
 		name = "равнобедренный треугольник";
+		if (a != c && A != C)
+		{
+			throw std::exception("Треугольник не равнобедренный");
+		}
 	}

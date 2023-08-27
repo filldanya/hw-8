@@ -12,5 +12,9 @@ Rhombus::Rhombus(int a, int A, int B) {
 		this->B = B;
 		this->D = B;
 		name = "Ромб";
+		if (A != C && B != D && a != c && a != b && a != d)
+		{
+			throw std::exception("Это не ромб");
+		}
 	}
 	Rhombus::Rhombus() {}
